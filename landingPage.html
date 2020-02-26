@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fresno county public library</title>
+    <link rel="stylesheet" href="./resources/css/cervantes-styles.css">
+    <style type="text/css">
+        #navBar {
+            margin-top: 0px;
+        }
+        .dropbtn {
+          background-color: #4CAF50;
+          color: white;
+          margin-top: 0px !important;
+          padding: 10px 5px 10px 5px;
+          font-size: 14px;
+          border: none;
+        }
+
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #91c347;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #49aeb4;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div id="banner">
+            <img src="./resources/img/nav.png" alt="" id="header">
+        </div>
+        <nav id="navBar">
+            <div class="dropdown">
+                <button class="dropbtn">My FCPL</button>
+                <div class="dropdown-content">
+                    <a href="#">Account</a>
+                    <a href="#">Catalog</a>
+                    <a href="#">Kids</a>
+                    <a href="#">Teens</a>
+                    <a href="#">Seniors</a>
+                </div>
+            </div>
+        </nav>        
+        <footer id="footer">
+            <div>
+                2420 Mariposa Street, Fresno, California 93721. (559) 600-READ (7323)
+                Last updated February 20, 2020 . Copyright © 1997-2020. 
+                <a href="http://www.co.fresno.ca.us/" target="__blank">Fresno County Public Library.</a> 
+                County of Fresno.
+            </div>
+            
+        </footer>
+    </div>
+</body>
+</html>

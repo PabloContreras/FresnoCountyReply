@@ -1,0 +1,25 @@
+#content {
+    border: 1px solid gray;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+    display: block;
+    
+}
+#header {
+    width: 100%;
+}
+#footer {
+    background-color: #5a4a42;
+    color: white;
+    margin: 5px 5px 5px 5px;
+}
+#footer > div > a {
+    color: white;
+}
+
+#banner {
+	display: block;
+	margin: 5px 5px 0px 5px;
+}

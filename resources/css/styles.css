@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana;
+}
+a:link, a:visited {
+    background-color: #000099;
+    width: 10%;
+    border: 1px solid #000019;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+
+}
+a:hover, a:active {
+    background-color: blue;
+}
