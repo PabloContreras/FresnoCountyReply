@@ -2,34 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        div {
-            border: 1px solid black;
-            margin: 25px 50px 75px 100px;
-            background-color: lightblue;
-            max-width: 100%;
-        }
-        main {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        img {
-            width: 100%;
-        }
-    </style>
+    <title>Fresno county public library</title>
+    <link rel="stylesheet" href="./resources/css/cervantes-styles.css">
 </head>
 <body>
-        <h1>El margen con sus propiedades</h1>
-        <h2>Recuerda, como un reloj, arriba, derecha, abajo, izquierda</h2>
-        <div> 
-            Un trabalengüista muy trabalenguoso creó 
-            un trabalenguas muy trabalenguado 
-            que ni el mejor trabalengüista 
-            podía trabalenguar
-            <img src="../resources/img/3000.jpg" alt="alternative image">
+    <div id="content">
+        <div id="banner">
+            <img src="./resources/img/nav.png" alt="" id="header">
         </div>
+        <nav id="navBar">
+            <div class="dropdown">
+                <button class="dropbtn">My FCPL</button>
+                <div class="dropdown-content">
+                    <a href="#">Account</a>
+                    <a href="#">Catalog</a>
+                    <a href="#">Kids</a>
+                    <a href="#">Teens</a>
+                    <a href="#">Seniors</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Browse</button>
+                <div class="dropdown-content">
+                    <a href="#">Catalog</a>
+                    <a href="#">Online Resources</a>
+                    <a href="#">Digital Collection</a>
+                    <a href="#">eBooks &amp; Dowloads</a>
+                    <a href="#">Homework Help</a>
+                    <a href="#">Heritage Center</a>
+                    <a href="#">Job &amp; Career</a>
+                    <a href="#">Government Information</a>
+                    <a href="#">Grants &amp; nonprofits center</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Community</button>
+                <div class="dropdown-content">
+                    <a href="#">Veterans</a>
+                    <a href="#">New Americans</a>
+                    <a href="#">Historical Landmarks</a>
+                    <a href="#">Fresno Grade Lavel Coalition</a>
+                    <a href="#">Friends of the library</a>
+                    <a href="#">My Library, My Story</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Events</button>
+                <div class="dropdown-content">
+                    <a href="#">Teens</a>
+                    <a href="#">Kids</a>
+                    <a href="#">Adults</a>
+                    <a href="#">A Reserve Room</a>
+                    <a href="#">Closure Dates</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">About</button>
+                <div class="dropdown-content">
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Get A Card</a>
+                    <a href="#">Location &amp; Hours</a>
+                    <a href="#">Programs &amp; Services</a>
+                    <a href="#">Support FCPL</a>
+                    <a href="#">Mission</a>
+                    <a href="#">Facts About Measure B</a>
+                    <a href="#">WoW!</a>
+                    <a href="#">Staff Spotlight</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Teens</button>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Kids</button>
+            </div>
+        </nav>   
+        <section id="principal">
+            <div id="lateral"> 
+                <div id="first-image">
+                    <img src="./resources/img/locations.png">
+                </div>
+                <div id="first-image">
+                    <img src="./resources/img/emedia.png">
+                </div>
+                <div id="first-image">
+                    <img src="./resources/img/libcard.png">
+                </div>
+            </div> 
+            <div class="slideshow-container" id="carousel">
+              <div class="mySlides fade">
+                <img src="./resources/img/1.png" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="./resources/img/2.png" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="./resources/img/3.png" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="./resources/img/4.png" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="./resources/img/5.png" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="./resources/img/6.png" style="width:100%">
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </section>
+        <section id="second">
+            <div id="left-section">   
+                <center><img src="./resources/img/voterEdge.png"></center> <br>  
+                AM I REGISTERED TO VOTE?<br><br>
+                LIBRARY MOBILE APP<br><br>
+                ONLINE RESOURCES<br><br>
+                CATALOG<br><br>
+                TAX FORMS & HELP<br><br>
+                PROGRAMS & SERVICES<br><br>
+                WoW!<br><br>
+                HERITAGE CENTER<br><br>
+                HISTORICAL LANDMARKS<br><br>
+                PRESS ROOM<br><br>
+                LIBRARY @ YOUR EVENT?<br><br>
+
+            </div>
+            <div id="center-section">            
+                <img src="./resources/img/kanopy.png">     
+
+            </div>
+            <div id="right-section">            
+                <img src="./resources/img/eventos.png">  
+
+            </div>
+        </section>     
+        <footer id="footer">
+            <div>
+                2420 Mariposa Street, Fresno, California 93721. (559) 600-READ (7323)
+                Last updated February 20, 2020 . Copyright © 1997-2020. 
+                <a href="http://www.co.fresno.ca.us/" target="__blank">Fresno County Public Library.</a> 
+                County of Fresno.
+            </div>
+            
+        </footer>
+        
+    <script type="text/javascript" src="./resources/js/scripts.js"></script>
+    </div>
 </body>
 </html>
